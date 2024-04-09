@@ -3,9 +3,9 @@ import imghdr
 from email.message import EmailMessage
 
 
-PASSWORD="artrgaqpldzzfvod"
-SENDER="projecttest0111@gmail.com"
-RECEIVER="abhinandraj011@gmail.com"
+PASSWORD=""
+SENDER=" "
+RECEIVER=" "
 def send_email(image_path):
     email_message= EmailMessage()
     email_message["Subject"]="Movement Detected!"

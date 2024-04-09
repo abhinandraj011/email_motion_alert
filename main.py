@@ -55,7 +55,7 @@ while True:
         clean_folder_thread=Thread(target=clean_folder)
         clean_folder_thread.daemon=True
 
-        send_email_thread.start()
+        send_email_thread.start() 
     print(status_list)
     cv2.imshow("My Video",frame)# to show the video from camera
     key= cv2.waitKey(1)
